@@ -1,0 +1,1 @@
+C:\Users\admin\Documents\GitHub\goit-js-hw-06\js.js
