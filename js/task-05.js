@@ -12,4 +12,3 @@ function onInputChange(event) {
         refs.output.textContent = event.currentTarget.value;
     }
 }
-// refs.input.addEventListener("input", onInputChange);
