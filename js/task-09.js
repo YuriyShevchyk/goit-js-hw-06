@@ -10,7 +10,7 @@ function getRandomHexColor() {
 }
 
 function onChangeColor() {
-  let color = getRandomHexColor();
+  const color = getRandomHexColor();
   widget.setAttribute('style', `background-color: ${color}`)
   colorName.textContent = color;
 }
