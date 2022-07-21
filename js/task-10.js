@@ -17,7 +17,7 @@ function onCreateBoxes() {
     numberArray.push(i);
   };
   // console.log(numberArray);
-  const boxes = numberArray.map((number) => {
+  const boxes = numberArray.forEach(number=> {
     const createBox  = document.createElement('div');
     const value = (20 + number * 10);
     createBox.style.width = `${value}px`;
